@@ -1,0 +1,33 @@
+{
+  "name": "VelocityRaptorCore",
+  "version": "0.1.0",
+  "summary": "A short description of VelocityRaptorCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Nick Bonatsakis/VelocityRaptorCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nick Bonatsakis": "nbonatsakis@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Nick Bonatsakis/VelocityRaptorCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "VelocityRaptorCore/Classes/**/*",
+  "dependencies": {
+    "Then": [
+
+    ],
+    "Anchorage": [
+
+    ],
+    "Reusable": [
+
+    ]
+  }
+}

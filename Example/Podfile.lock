@@ -1,0 +1,35 @@
+PODS:
+  - Anchorage (4.4.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - Then (2.7.0)
+  - VelocityRaptorCore (0.1.0):
+    - Anchorage
+    - Reusable
+    - Then
+
+DEPENDENCIES:
+  - VelocityRaptorCore (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Anchorage
+    - Reusable
+    - Then
+
+EXTERNAL SOURCES:
+  VelocityRaptorCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Anchorage: d7f02c4f9425b537053237aab11ae97e59b55f36
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  VelocityRaptorCore: f0f3180111708b6ed04dae83b914705f6cbb7f8e
+
+PODFILE CHECKSUM: 17d9f8f742b21e14e59a36ef0dd14fe2cd41da5d
+
+COCOAPODS: 1.9.3

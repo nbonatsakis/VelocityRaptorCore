@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import VelocityRaptorCore
 
 class ViewController: UIViewController {
 
