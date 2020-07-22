@@ -11,7 +11,7 @@ import Anchorage
 
 public extension UIButton {
 
-    static func primary(withTitle title: String? = nil, backgroundColor: UIColor = VelocityRaptorConfig.primaryButtonBackground, foregroundColor: UIColor = VelocityRaptorConfig.primaryButtonForeground) -> UIButton {
+    public static func primary(withTitle title: String? = nil, backgroundColor: UIColor = VelocityRaptorConfig.primaryButtonBackground, foregroundColor: UIColor = VelocityRaptorConfig.primaryButtonForeground) -> UIButton {
         let button = BetterButton(shape: .rectangle(cornerRadius: VelocityRaptorConfig.defaultCornerRadius), style: .solid(backgroundColor: backgroundColor, foregroundColor: foregroundColor))
         button.heightAnchor == 50
         if let title = title {
@@ -20,7 +20,7 @@ public extension UIButton {
         return button
     }
 
-    static func primaryOutlined(withTitle title: String? = nil, backgroundColor: UIColor = .systemBackground, tintColor: UIColor = VelocityRaptorConfig.primaryButtonBackground) -> UIButton {
+    public static func primaryOutlined(withTitle title: String? = nil, backgroundColor: UIColor = .systemBackground, tintColor: UIColor = VelocityRaptorConfig.primaryButtonBackground) -> UIButton {
         let button = BetterButton(shape: .rectangle(cornerRadius: VelocityRaptorConfig.defaultCornerRadius), style: .outlineInvert(backgroundColor: backgroundColor, foregroundColor: tintColor))
         button.heightAnchor == 50
         if let title = title {
@@ -29,7 +29,7 @@ public extension UIButton {
         return button
     }
 
-    static func text(withTitle title: String? = nil) -> UIButton {
+    public static func text(withTitle title: String? = nil) -> UIButton {
         let button = UIButton(type: .system)
         button.tintColor = VelocityRaptorConfig.primaryButtonBackground
         button.titleLabel?.textAlignment = .center
@@ -39,7 +39,7 @@ public extension UIButton {
         return button
     }
 
-    static func textAndIcon(title: String, icon: UIImage) -> UIButton {
+    public static func textAndIcon(title: String, icon: UIImage) -> UIButton {
         let button = UIButton(type: .system)
         button.tintColor = VelocityRaptorConfig.primaryButtonBackground
         button.setTitle(title, for: .normal)
