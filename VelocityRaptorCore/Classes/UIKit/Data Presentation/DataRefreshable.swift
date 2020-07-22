@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol DataRefreshable {
+protocol DataRefreshable: EmptyStateDisplayable {
 
     var tableView: UITableView! { get }
     func configureDataRefresh()
@@ -34,6 +34,7 @@ extension DataRefreshable where Self: UIViewController {
     private func loadDataAndEndRefresh() {
         loadData { [weak self] in
             self?.tableView.refreshControl?.endRefreshing()
+            self?.dataChanged()
         }
     }
 

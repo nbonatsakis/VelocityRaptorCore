@@ -90,7 +90,7 @@ open class HairlineView: UIView {
     }
 
     open override var intrinsicContentSize: CGSize {
-        var size = CGSize(width: UIViewNoIntrinsicMetric, height: UIViewNoIntrinsicMetric)
+        var size = CGSize(width: UIView.noIntrinsicMetric, height: UIView.noIntrinsicMetric)
 
         switch axis {
         case .horizontal: size.height = thickness

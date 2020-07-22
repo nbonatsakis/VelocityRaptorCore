@@ -41,4 +41,6 @@ TODO: Add long description of the pod here.
   s.dependency 'Then'
   s.dependency 'Anchorage'
   s.dependency 'Reusable'
+  s.dependency 'MaterialComponents'
+
 end
