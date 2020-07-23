@@ -9,6 +9,8 @@
 import UIKit
 import os
 
+typealias VRC = VelocityRaptorConfig
+
 public struct VelocityRaptorConfig {
 
     // MARK: Metrics
@@ -25,10 +27,23 @@ public struct VelocityRaptorConfig {
 
     // MARK: Color
 
-    public static var tint = UIColor.blue
-    public static var secondaryTint = UIColor.purple
-    public static var primaryButtonBackground = UIColor.blue
-    public static var primaryButtonForeground = UIColor.white
+    public static var tint: UIColor = .blue
+    public static var secondaryTint: UIColor = .purple
+    public static var primaryButtonBackground: UIColor = .blue
+    public static var primaryButtonForeground: UIColor = .white
+
+    // MARK: Header
+
+    public static var tableSectionHeaderTextStyle: UIFont.TextStyle = .subheadline
+    public static var tableSectionHeaderColor: UIColor = .secondaryLabel
+    public static var tableSectionHeaderUppercase: Bool = true
+
+    // MARK: Input
+
+    public static var textFieldText: UIColor = .label
+    public static var textFieldTintInactive: UIColor = .secondaryLabel
+    public static var textFieldTintActive: UIColor = VRC.tint
+    public static var textFieldTintError: UIColor = .red
 
     // MARK: Logging
 
