@@ -16,6 +16,7 @@
 		00CC4D7D01AB901646EA402D15A5D7C4 /* MDCElevationOverriding.h in Headers */ = {isa = PBXBuildFile; fileRef = 64460E2FE6ADD03DE9854E4B420BCAAC /* MDCElevationOverriding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00D024295F0F68697803941FD3AD7316 /* MDCIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC933148E2AE788DAA7278F1EAAD390 /* MDCIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00E52DBCF402D5E52CE2D222C7E566BB /* MDCAppBarContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BC59765F4A4A4A0F7B52B669C1599454 /* MDCAppBarContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0132CB0E24CD26BB00D1B03A /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132CB0C24CD26AB00D1B03A /* StackViewController.swift */; };
 		01B26FF1A81C36E2831534C00AC7D8AE /* MDCFlexibleHeaderShifter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFB5CEF47BD6C72F4AFAD83B7A5A5DA /* MDCFlexibleHeaderShifter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		01CF6F5342102F588B18B5CF12992207 /* MDCChipView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3430C1D2B0CEA08CB41288E2FB3E9180 /* MDCChipView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		01EBC43604BA1A8D5B0CC09F121F03AD /* MaterialComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF04646C611FF1589DD08AFAB5011D0 /* MaterialComponents-dummy.m */; };
@@ -1233,6 +1234,7 @@
 		008EE9CB731B6FC6BA391755F80A965B /* Anchorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchorage.swift; path = Source/Anchorage.swift; sourceTree = "<group>"; };
 		00990DAD05556ABAE2CD177139007E98 /* MDCBottomSheetControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetControllerDelegate.h; path = components/BottomSheet/src/MDCBottomSheetControllerDelegate.h; sourceTree = "<group>"; };
 		009CFDDA777F7971C264022F36ABAE5C /* MDCTabBarIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarIndicatorView.h; path = components/Tabs/src/private/MDCTabBarIndicatorView.h; sourceTree = "<group>"; };
+		0132CB0C24CD26AB00D1B03A /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		016A6853AA66CD8B8BAEE1366BF751F2 /* MDCCollectionGridBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCollectionGridBackgroundView.h; path = components/Collections/src/private/MDCCollectionGridBackgroundView.h; sourceTree = "<group>"; };
 		01702AB415116AE2C9269DDB42CC0CC2 /* MaterialTabs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialTabs.h; path = components/Tabs/src/MaterialTabs.h; sourceTree = "<group>"; };
 		017380C529B8BB35834FE712122ACC45 /* MDCFlexibleHeaderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFlexibleHeaderViewController.h; path = components/FlexibleHeader/src/MDCFlexibleHeaderViewController.h; sourceTree = "<group>"; };
@@ -3618,6 +3620,7 @@
 				A43919A71D99AB449EB5A70386C1FFAA /* Shapes.swift */,
 				EF467D9B633719BDDF7E6DE7C4E09F59 /* Input */,
 				D1C4E50980BCDDEBCCBF619C3328138E /* Views */,
+				0132CB0C24CD26AB00D1B03A /* StackViewController.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -6449,6 +6452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53D46962655DEF0C4C51EA77AD648D5F /* AlignmentView.swift in Sources */,
+				0132CB0E24CD26BB00D1B03A /* StackViewController.swift in Sources */,
 				64BECF84A5466865047758137911767E /* AppLifecycle.swift in Sources */,
 				C464D4C69D33E69B9C6B15EBB8D35D6E /* AssociatedObjects.swift in Sources */,
 				E0DD3BDAF258F2BCCD59AC960086BE81 /* Attatchable.swift in Sources */,

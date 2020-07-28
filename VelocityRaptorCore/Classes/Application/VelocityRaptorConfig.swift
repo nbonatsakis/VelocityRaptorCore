@@ -9,7 +9,7 @@
 import UIKit
 import os
 
-typealias VRC = VelocityRaptorConfig
+public typealias VRC = VelocityRaptorConfig
 
 public struct VelocityRaptorConfig {
 
