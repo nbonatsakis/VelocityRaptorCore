@@ -17,6 +17,7 @@
 		00D024295F0F68697803941FD3AD7316 /* MDCIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC933148E2AE788DAA7278F1EAAD390 /* MDCIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00E52DBCF402D5E52CE2D222C7E566BB /* MDCAppBarContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BC59765F4A4A4A0F7B52B669C1599454 /* MDCAppBarContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0132CB0E24CD26BB00D1B03A /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132CB0C24CD26AB00D1B03A /* StackViewController.swift */; };
+		01AA2F1324DA695B0022872A /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA2F1124DA63DC0022872A /* UserDefaultsExtensions.swift */; };
 		01B26FF1A81C36E2831534C00AC7D8AE /* MDCFlexibleHeaderShifter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFB5CEF47BD6C72F4AFAD83B7A5A5DA /* MDCFlexibleHeaderShifter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		01CF6F5342102F588B18B5CF12992207 /* MDCChipView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3430C1D2B0CEA08CB41288E2FB3E9180 /* MDCChipView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		01EBC43604BA1A8D5B0CC09F121F03AD /* MaterialComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF04646C611FF1589DD08AFAB5011D0 /* MaterialComponents-dummy.m */; };
@@ -1241,6 +1242,7 @@
 		01865A2757A8086A8ED2D7B5A70B0E50 /* MDCOverlayTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOverlayTransitioning.h; path = components/private/Overlay/src/MDCOverlayTransitioning.h; sourceTree = "<group>"; };
 		019B6E21441263C89519DBCC741F7749 /* CABasicAnimation+MotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CABasicAnimation+MotionAnimator.h"; path = "src/private/CABasicAnimation+MotionAnimator.h"; sourceTree = "<group>"; };
 		019C8BEA2F168E71B5CADF392DDC6A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		01AA2F1124DA63DC0022872A /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtensions.swift; sourceTree = "<group>"; };
 		01AF4FC87094F0FFB332E84452CB2791 /* MDFInternationalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDFInternationalization-dummy.m"; sourceTree = "<group>"; };
 		01E35E53329BD278564E01300E84E037 /* MaterialThumbTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialThumbTrack.h; path = components/private/ThumbTrack/src/MaterialThumbTrack.h; sourceTree = "<group>"; };
 		01F9047BF25B16F107CC26B098A96B4D /* MDCNumericValueLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCNumericValueLabel.h; path = components/private/ThumbTrack/src/MDCNumericValueLabel.h; sourceTree = "<group>"; };
@@ -2485,6 +2487,13 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		01AA2F1024DA63A90022872A /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
 		02170CE71A50AC259DBC267DBC005F74 /* TextControls+FilledTextAreasTheming */ = {
 			isa = PBXGroup;
 			children = (
@@ -3482,12 +3491,14 @@
 		7A5E0958A89CF707513D0C532665BCD0 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				01AA2F1024DA63A90022872A /* Combine */,
 				B619F68DDBC148B00D4827F45E0266DD /* AssociatedObjects.swift */,
 				4C39721A96F7B2CB7CAA6343477AD65B /* Attatchable.swift */,
 				797E4DEA5678BAC88BA11861A52DBDFF /* CollectionUtils.swift */,
 				FC448DD8E3320BA8035B4BF74127E37A /* FieldValidator.swift */,
 				9D52FF0915EAA583498EFEA8D31F3E57 /* ImageExtensions.swift */,
 				DAA3DEB0E1FFDE35083216289E1144A5 /* Math */,
+				01AA2F1124DA63DC0022872A /* UserDefaultsExtensions.swift */,
 			);
 			name = Foundation;
 			path = VelocityRaptorCore/Classes/Foundation;
@@ -6453,6 +6464,7 @@
 			files = (
 				53D46962655DEF0C4C51EA77AD648D5F /* AlignmentView.swift in Sources */,
 				0132CB0E24CD26BB00D1B03A /* StackViewController.swift in Sources */,
+				01AA2F1324DA695B0022872A /* UserDefaultsExtensions.swift in Sources */,
 				64BECF84A5466865047758137911767E /* AppLifecycle.swift in Sources */,
 				C464D4C69D33E69B9C6B15EBB8D35D6E /* AssociatedObjects.swift in Sources */,
 				E0DD3BDAF258F2BCCD59AC960086BE81 /* Attatchable.swift in Sources */,
