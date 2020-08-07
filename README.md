@@ -11,6 +11,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## Push
+
+```
+bundle exec pod repo push VelocityRaptorSpecs VelocityRaptorCore.podspec
+```
+
 ## Installation
 
 VelocityRaptorCore is available through [CocoaPods](https://cocoapods.org). To install
