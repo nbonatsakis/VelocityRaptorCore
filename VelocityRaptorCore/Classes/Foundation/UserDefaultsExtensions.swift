@@ -55,7 +55,7 @@ public class Defaults {
 
 public extension UserDefaults {
 
-    public func set<T: Codable>(_ value: T?, forKey key: String) {
+    func set<T: Codable>(_ value: T?, forKey key: String) {
         let encoder = JSONEncoder()
         if let val = value, let encoded = try? encoder.encode(val) {
             self.set(encoded, forKey: key)
@@ -64,7 +64,7 @@ public extension UserDefaults {
         }
     }
 
-    public func codable<T: Codable>(forKey key: String) -> T? {
+    func codable<T: Codable>(forKey key: String) -> T? {
         let decoder = JSONDecoder()
         guard let data = self.object(forKey: key) as? Data,
             let result = try? decoder.decode(T.self, from: data) else {
