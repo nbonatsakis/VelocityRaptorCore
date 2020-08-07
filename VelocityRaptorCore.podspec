@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VelocityRaptorCore'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Velocity Raptor Core lib'
 
   s.description      = <<-DESC

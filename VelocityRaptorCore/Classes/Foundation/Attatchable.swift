@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Attachable {
+public protocol Attachable {
 
     func attach(to child: AnyObject)
     func detatch(from child: AnyObject)
@@ -17,7 +17,7 @@ protocol Attachable {
 
 private var strongKey = "com.util.attachable.strong"
 private var weakKey = "com.util.attachable.weak"
-extension Attachable where Self: NSObject {
+public extension Attachable where Self: NSObject {
 
     func attach(to child: AnyObject) {
         addStrongReference(from: child, to: self)
